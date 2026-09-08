@@ -3,50 +3,60 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: current clamp technique
-    schemaKey: MeasurementTechniqueType
-  - name: voltage clamp technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 21817667490
-  numberOfFiles: 392
-  numberOfSubjects: 63
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured:
-  - VoltageClampStimulusSeries
-  - ProcessingModule
-  - CurrentClampSeries
-  - CurrentClampStimulusSeries
-  - VoltageClampSeries
-citation: Gonzalez, Limary (2026) 2026_AIBS_Patcheq_HiMC_mouse (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001938/draft
+citation: Gonzalez, Limary; Lee, Brian; Allen Institute for Brian Science; National
+  Institute of Mental Health; Jarsky, Tim (2026) 2026_AIBS_Patcheq_HiMC_mouse (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001938/draft
 contributor:
 - affiliation: []
   email: limary.gonzalez@alleninstitute.org
+  identifier: 0009-0009-0306-0002
   includeInCitation: true
   name: Gonzalez, Limary
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: UM1NS132250
+  email: brianle@alleninstitute.org
+  identifier: 0000-0002-3210-5638
+  includeInCitation: true
+  name: Lee, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: UM1NS132250
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: true
+  name: Allen Institute for Brian Science
+  schemaKey: Organization
+  url: https://alleninstitute.org/
+- awardNumber: UM1NS132250
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: true
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov/
+- awardNumber: UM1NS132250
+  email: timj@alleninstitute.org
+  identifier: 0000-0002-4399-539X
+  includeInCitation: true
+  name: Jarsky, Tim
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- {}
 dateCreated: '2026-08-03T18:48:06.612032+00:00'
 description: 2026_AIBS_Patcheq_HiMC_mouse
+ethicsApproval: []
 id: DANDI:001938/draft
 identifier: DANDI:001938
 license:
@@ -54,8 +64,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001938/versions/draft/assets/
 name: 2026_AIBS_Patcheq_HiMC_mouse
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001938/draft
 version: draft
+wasGeneratedBy: []
