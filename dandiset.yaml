@@ -8,12 +8,37 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 26193194437
+  numberOfFiles: 472
+  numberOfSubjects: 70
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - VoltageClampStimulusSeries
+  - ProcessingModule
+  - CurrentClampSeries
+  - CurrentClampStimulusSeries
+  - VoltageClampSeries
 citation: Gonzalez, Limary; Lee, Brian; Allen Institute for Brian Science; National
-  Institute of Mental Health; Jarsky, Tim (2026) 2026_AIBS_Patcheq_HiMC_mouse (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001938/draft
+  Institute of Mental Health; Jarsky, Tim; Sorensen, Staci (2026) 2026_AIBS_Patcheq_HiMC_mouse
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001938/draft
 contributor:
 - affiliation: []
   email: limary.gonzalez@alleninstitute.org
@@ -53,21 +78,34 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- {}
+- awardNumber: UM1NS132250
+  email: stacis@alleninstitute.org
+  identifier: 0000-0002-6799-2126
+  includeInCitation: true
+  name: Sorensen, Staci
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2026-08-03T18:48:06.612032+00:00'
-description: 2026_AIBS_Patcheq_HiMC_mouse
+description: Mouse HiMC single-cell Patch-seq data upload
 ethicsApproval: []
 id: DANDI:001938/draft
 identifier: DANDI:001938
+keywords:
+- patch-seq, mouse, multimodal
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001938/versions/draft/assets/
 name: 2026_AIBS_Patcheq_HiMC_mouse
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- 'BRAIN CONNECTS: A Center for High-throughput Integrative Mouse Connectomics (HiMC)'
 url: https://dandiarchive.org/dandiset/001938/draft
 version: draft
 wasGeneratedBy: []
