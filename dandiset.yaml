@@ -22,8 +22,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: voltage clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 74728846176
-  numberOfFiles: 1427
+  numberOfBytes: 74845534093
+  numberOfFiles: 1429
   numberOfSubjects: 219
   schemaKey: AssetsSummary
   species:
